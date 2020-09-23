@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #0384fc;
+  min-height: 8vh;
+}
+#logo {
+  color: #ffff;
+}
+img {
+  max-width: 10%;
+}
+li {
+  display: flex;
+  align-items: center;
+}
+a {
+  color: #0384fc;
+}
+ul {
+  justify-content: center;
+}
