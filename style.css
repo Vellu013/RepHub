@@ -38,3 +38,19 @@ nav {
 .lip {
   padding: 20px;
 }
+@media (max-width: 960px) {
+  #space {
+    padding: 25px;
+  }
+  #logo, .navlink {
+    padding: 0px 4px;
+    margin: 0px;
+  }
+  #navlinks {
+    padding: 0px;
+    margin: 10px;
+  }
+  nav {
+    width: 98%;
+  }
+}
