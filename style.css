@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 2px;
+  background-color: #181818;
+  font-size: 25px;
+  font-family: 'Roboto', sans-serif;
+}
+p, a, h1, h2, h3, h4, h5, h6 {
+  color: white;
+}
+nav {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.navlink {
+  display: inline-block;
+}
+#logo, .navlink {
+  margin: 15px;
+  padding: 10px;
+}
+#space {
+  padding: 50px;
+}
+.imgresize {
+  max-width: 80px;
+  max-height: 80px;
+}
+.centerli {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.lip {
+  padding: 20px;
+}
